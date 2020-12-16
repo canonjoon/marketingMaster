@@ -1,12 +1,13 @@
 import urllib.request
 import json
 
+# 클라이언트 아이디,시크릿 블로그 주소, 쇼핑주소.
 
-client_id = "2vI32KETz905YKR54cnv";
-client_secret = "YpzyZUhkom";
 
-NAVER_BLOG_API_URL = "https://openapi.naver.com/v1/search/blog?query="
-NAVER_SHOP_API_URL = "https://openapi.naver.com/v1/search/shop?query="
+
+# 여기까지
+
+
 
 keyword = "마스크";
 

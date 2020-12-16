@@ -4,17 +4,12 @@ import urllib.request
 import json
 from powernad.API import RelKwdStat
 
+#클라이언트 아이디,시크릿, 광고 아이디,라이센스.키
 
 
-client_id = "2vI32KETz905YKR54cnv";
-client_secret = "YpzyZUhkom";
-NAVER_AD_CUSTOMER_ID = "2120147"
-NAVER_AD_ACCESS_LICENSE = "010000000002aa128362dc68c11874966de38bef2b375d913c18ab11f2dbc301504de5b2ff"
-NAVER_AD_SECRET_KEY = "AQAAAAACqhKDYtxowRh0lm3ji+8riaTOU0n5O2Eso85dH8DcEA=="
 
-NAVER_AD_API_URL = "https://api.naver.com";
-NAVER_BLOG_API_URL = "https://openapi.naver.com/v1/search/blog?query="
-NAVER_SHOP_API_URL = "https://openapi.naver.com/v1/search/shop?query="
+#여기까지
+
 
 LIMIT = 30;
 keywords =[];
